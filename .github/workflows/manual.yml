@@ -1,0 +1,10 @@
+- name: 'Sending SMS Notification'
+  uses: twilio-labs/actions-sms@v1
+  with:
+    fromPhoneNumber: '+54(11)22623366'
+    toPhoneNumber: '+1(660)2009798'
+    message: 'Hello from Twilio'
+  env:
+    TWILIO_ACCOUNT_SID: SK22d362fb100629ff352732c6ea8caebf
+    TWILIO_API_KEY: 8gze6eJgfwmpbouabqqfTHDLn7TxMv4n
+    TWILIO_API_SECRET: 8gze6eJgfwmpbouabqqfTHDLn7TxMv4n
